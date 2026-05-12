@@ -1,6 +1,0 @@
-/Users/kaviyasivakumarsivasankaran/Downloads/beauty-clinic-microservices/appointment-service/src/main/java/com/beautyclinic/appointment_service/AppointmentServiceApplication.java
-/Users/kaviyasivakumarsivasankaran/Downloads/beauty-clinic-microservices/appointment-service/src/main/java/com/beautyclinic/appointment_service/client/UserClient.java
-/Users/kaviyasivakumarsivasankaran/Downloads/beauty-clinic-microservices/appointment-service/src/main/java/com/beautyclinic/appointment_service/controller/AppointmentController.java
-/Users/kaviyasivakumarsivasankaran/Downloads/beauty-clinic-microservices/appointment-service/src/main/java/com/beautyclinic/appointment_service/dto/UserDTO.java
-/Users/kaviyasivakumarsivasankaran/Downloads/beauty-clinic-microservices/appointment-service/src/main/java/com/beautyclinic/appointment_service/kafka/AppointmentEventProducer.java
-/Users/kaviyasivakumarsivasankaran/Downloads/beauty-clinic-microservices/appointment-service/src/main/java/com/beautyclinic/appointment_service/service/AppointmentService.java
