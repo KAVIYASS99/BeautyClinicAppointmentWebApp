@@ -1,0 +1,6 @@
+com/beautyclinic/appointment_service/controller/AppointmentController.class
+com/beautyclinic/appointment_service/kafka/AppointmentEventProducer.class
+com/beautyclinic/appointment_service/client/UserClient.class
+com/beautyclinic/appointment_service/service/AppointmentService.class
+com/beautyclinic/appointment_service/dto/UserDTO.class
+com/beautyclinic/appointment_service/AppointmentServiceApplication.class

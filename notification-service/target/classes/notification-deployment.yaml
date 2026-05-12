@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: notification-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: notification-service
+  template:
+    metadata:
+      labels:
+        app: notification-service
+    spec:
+      initContainers:
+        - name: wait-for-mysql
+          image: busybox
+          command:
+            - sh
+            - -c
+            - |
+              until nc -z mysql 3306; do
+                echo "Waiting for MySQL..."
+                sleep 2
+              done
+    #    - name: wait-for-kafka
+    #      image: busybox
+    #      command:
+    #        - sh
+    #        - -c
+    #        - until nc -z kafka 9092; do
+    #            echo "Waiting for Kafka..."
+    #            sleep 2
+    #         done
+      containers:
+        - name: notification-container
+          image: notification-service:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8083
