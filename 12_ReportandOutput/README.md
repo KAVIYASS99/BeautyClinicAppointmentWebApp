@@ -1,2 +1,2 @@
 # Appointment Service
- ![Appointment Service](APPOINTMENT-SERVICE.png)
+ ![Appointment Service](https://github.com/KAVIYASS99/BeautyClinicAppointmentWebApp/blob/main/APPOINTMENT-SERVICE.png)
